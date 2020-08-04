@@ -144,7 +144,19 @@ section {
   max-width: 1000px;
 }
 
-.process {
+.skills {
+  max-width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.jobs {
   max-width: 1000px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -243,16 +255,36 @@ section {
   line-height: 0.4em;
 }
 
-.process-item {
+.skills-item {
   max-width: 300px;
   padding-top: 20px;
 }
 
-.process-item h3 {
+.skills-item h3 {
   margin-left: 15px;
 }
 
-.process-wrapper {
+.skills-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.jobs-item {
+  max-width: 300px;
+  padding-top: 20px;
+}
+
+.jobs-item h3 {
+  margin-left: 15px;
+}
+
+.jobs-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
